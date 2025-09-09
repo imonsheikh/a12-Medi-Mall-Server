@@ -13,7 +13,8 @@ app.use(cors({
   origin: [
             'http://localhost:5173',
             'http://localhost:5174',
-           'https://multi-vendor-medicine.web.app/'
+           'https://multi-vendor-medicine.web.app',
+           'https://a12-medi-mall-server.vercel.app'
           ],
   // credentials: true
 }))
